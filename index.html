@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--i did this to work around specificity-->
+	<style>
+		.jumbotron{
+			background-image: url(banner.jpg);
+		}
+	</style>	
+	<!--metadata-->
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>project_1</title>
+    <!--import css from bootstrap-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" rel="stylesheet" type="text/css" />
+    <!--my own css, used to customize the bootstrap style. I did this to avoid using !important-->
+    <link href="inc/css/style.css" rel="stylesheet" type="text/css" />
+    <!--Social media buttons library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<img class="backImg" src="inc/images/newsback.jpg" alt="cool background" />
+	<!--importing script-->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<!--here is jQuery-->
+	<script src="inc/jquery/jquery-3.5.1.min.js"></script>
+	<!--bootstrap navbar-->
+	<nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navigation">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <br/>
+    <br/>
+    <!--bootstrap jumbotron-->
+    <div class="jumbotron">
+      <h1 class="display-4">The Daily Scoop Report Journal Periodical</h1>
+      <p class="lead"><b>Your #1 source for news that actually matters</b></p>
+    </div>
+	<main>
+		<!--news article-style quote-->
+		<aside> 
+			<blockquote><em>"I was ecstatic! Finally, I could have all the calendars I could ever need! I could even give some to my neighbors, maybe even spark conversation about which breed of dog appears on July!"</em></blockquote>
+		     -Joseph "Joe" Mauma
+		</aside>  
+		<section>
+			<h3>BREAKING: Man Files Lawsuit Against Marie Callendar's, Claims They Don't Sell Calendars</h3>
+			<h5>By Jimmy Dean</h5>
+			<figure>
+			  <img class="pie" src="inc/images/bowl.jpeg" width="150" height="150" alt="Yummy stuff, bro" />
+			  <figcaption><em>As you can see, Marie Callendar's obviously does not sell calendars.</em></figcaption>
+		    </figure>	
+			<p><b>Joeseph Mauma, a 35 year old Boulder, Colorado resident, is suing Jeffrey Warne, CEO of Marie Callendar's, for alleged false advertising following a large Amazon purchase he made last week.</b></p>
+			<br/>
+			<p class="content">
+		    Marie Callendar's certainly makes no secret of its trade in delicious and convenient dinners. In fact, their name is almost synonymous with the industry. However, according to Mauma and his friends, it's not enough. In fact, they've began a movement in their town of Boulder. Wielding signs and calendars, they march through the streets of downtown, yelling phrases like "What day is it? We don't know!" We spoke to Mai Mauma, Joseph's wife, about her take on her husband's position. <blockquote><em>"Joe Mauma is crazy. That's why I married him. He's always in an uproar about something, and it can get grating at times, but he does it all with conviction, you know. It comes from a good place."</em></blockquote> Together with his faithful companions, Joe hopes that he can come to an agreement with the CEO. According to him, he lost $3,500 when he mistakenly ordered over a thousand microwave dinners, thinking he was purchasing wall calendars for the upcomming year. <q>I was expecting a few boxes, sure, but when 2 fridge trucks pulled up to my driveway, I was confused. When they began wheeling dinner after scrumptious dinner, I knew then that someone wronged me.</q>, he said in an interview late yesterday morning. We reached out to Warne, but he declined to comment. As of today, there has been no change to the situation. We will update this article with any additional information.</p>
+			
+		</section>	
+		
+	</main>	
+	<div class="soc">
+		<p><b>Follow our socials</b></p>
+		<a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+    </div>   
+</body>
+</html>	

@@ -1,0 +1,86 @@
+h1{
+	background: linear-gradient(to right, blue, darkblue 30%);
+	color: white;
+	border-style: ridge;
+	border-width: 5px;
+	border-color: lightblue;
+	border-radius: 15px;
+}
+/*customization of bootstrap navbar*/
+.navbar-expand-md{
+	width:350px;
+	background-color: darkblue;
+	border-style: ridge;
+	border-width: 5px;
+	border-color: lightblue;
+	border-radius: 15px;
+}
+aside {
+	color: black;
+	border-style:inset;
+	border-width: 5px;
+	border-color: darkblue;
+	border-radius: 15px;
+    width:280px;
+    float:right;
+    background-color: white;
+    text-align:center;
+    font-weight:bold;
+    padding:20px;
+    margin-left:20px;
+}
+main{
+	padding: 15px;
+	background-color: blue;
+	border-style: ridge;
+	border-width: 5px;
+	border-color: lightblue;
+	border-radius: 15px;
+}
+section{
+	color: white;
+}
+figcaption{
+	color:white;
+}
+.pie{
+	display: inline-block;
+}
+.backImg{
+	/*i found it easier to use this method to create a background instead of background-image */
+	z-index: -5;
+	position: absolute;
+}
+.content{
+	display: inline-block;
+}
+/*customization of bootstrap jumbotron*/
+.jumbotron{
+	color: white;
+	text-align: center;
+	border-style: ridge;
+	border-width: 5px;
+	border-color: lightblue;
+	border-radius: 15px;
+}
+.lead{
+	background-color: #ABABFF;
+}
+.soc{
+	color: white;
+	text-align: center;
+	margin:auto;
+	width: 50%;
+	height:80px;
+	padding: 15px;
+	background: rgba(50,50,50,0.5);
+}
+.fa {
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover{
+  opacity: 0.7;
+}
